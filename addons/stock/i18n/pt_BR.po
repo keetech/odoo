@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * stock
-# 
+#
 # Translators:
 # Martin Trigaux, 2017
 # grazziano <gra.negocia@gmail.com>, 2017
@@ -935,7 +935,7 @@ msgstr "Movimentos Atribuídos"
 #. module: stock
 #: selection:stock.quantity.history,compute_at_date:0
 msgid "At a Specific Date"
-msgstr ""
+msgstr "Em uma Data Específica"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_variants_action
@@ -988,13 +988,13 @@ msgstr "Back Orders"
 #: code:addons/stock/wizard/stock_backorder_confirmation.py:20
 #, python-format
 msgid "Back order <em>%s</em> <b>cancelled</b>."
-msgstr "Pedido em atraso <em>%s</em> <b>cancelado</b>."
+msgstr "Back order <em>%s</em> <b>cancelado</b>."
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:790
 #, python-format
 msgid "Back order <em>%s</em> <b>created</b>."
-msgstr "Pedido de devolução <em>%s </em> <b> criado </b>."
+msgstr "Back order <em>%s </em> <b> criado </b>."
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_backorder_confirmation
@@ -1022,7 +1022,7 @@ msgstr "Backorders"
 #: model:ir.model.fields,field_description:stock.field_stock_location_barcode
 #: model:ir.ui.view,arch_db:stock.report_picking
 msgid "Barcode"
-msgstr "Código de barras"
+msgstr "Código de Barras"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type_barcode_nomenclature_id
@@ -1056,7 +1056,7 @@ msgstr ""
 #. module: stock
 #: model:stock.location,name:stock.stock_location_4
 msgid "Big Vendors"
-msgstr "Grandes Fornecedores"
+msgstr "Grandes Vendedores"
 
 #. module: stock
 #: selection:res.partner,picking_warn:0
@@ -3169,7 +3169,7 @@ msgstr "Inventários do Mês"
 #: model:ir.ui.view,arch_db:stock.res_config_settings_view_form
 #: model:ir.ui.view,arch_db:stock.view_stock_quant_pivot
 msgid "Inventory"
-msgstr "Inventário"
+msgstr "Estoque"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_form
@@ -3207,7 +3207,7 @@ msgstr "Linha do Inventário"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_inventory_line_tree
 msgid "Inventory Lines"
-msgstr ""
+msgstr "Linhas do Inventário"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product_property_stock_inventory
@@ -3228,7 +3228,7 @@ msgstr "Perda de Inventário"
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.view_inventory_filter
 msgid "Inventory Product"
-msgstr ""
+msgstr "Produto"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_name
@@ -3239,7 +3239,7 @@ msgstr "Referência de Inventário"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_stock_quantity_history
 msgid "Inventory Report"
-msgstr ""
+msgstr "Relatório de Inventário"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location_route
@@ -3292,7 +3292,7 @@ msgstr "Está Trancado"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package_is_processed
 msgid "Is Processed"
-msgstr ""
+msgstr "Processado"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_return_location
@@ -3308,12 +3308,12 @@ msgstr "É um Local de Sucata?"
 #: model:ir.model.fields,field_description:stock.field_stock_move_is_initial_demand_editable
 #: model:ir.model.fields,field_description:stock.field_stock_move_line_is_initial_demand_editable
 msgid "Is initial demand editable"
-msgstr ""
+msgstr "A demanda inicial é editável"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_is_quantity_done_editable
 msgid "Is quantity done editable"
-msgstr ""
+msgstr "A qunatidade concluída é editável"
 
 #. module: stock
 #: model:ir.ui.view,arch_db:stock.inventory_planner
@@ -3328,14 +3328,14 @@ msgstr ""
 #: code:addons/stock/models/stock_quant.py:254
 #, python-format
 msgid ""
-"It is not possible to reserve more products of %s than you have in stock."
+"Não é possível reservar mais produtos de %s do que a quantidade em estoque."
 msgstr ""
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:256
 #, python-format
 msgid ""
-"It is not possible to unreserve more products of %s than you have in stock."
+"Não é possível reservar mais produtos de %s do que a quantidade em estoque."
 msgstr ""
 
 #. module: stock
